@@ -1,0 +1,7 @@
+---
+Name: notificationroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'registration-auth//$Action': 'Registration_AuthController'

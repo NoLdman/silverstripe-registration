@@ -1,0 +1,22 @@
+---
+Name: registration
+After: 
+	- 'framework/*'
+	- 'cms/*'
+Before:
+	- 'mysite/*'
+---
+Member:
+  extensions:
+    - RegistrationMemberExtenxion
+Registration:
+#  UserGroups:
+#    - FrontendUser
+  RequireActivation: true
+  RegistrationFields:
+    - Email
+    - Password
+  RequiredFields:
+    - Email
+    - Password
+  
