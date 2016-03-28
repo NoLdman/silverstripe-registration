@@ -1,5 +1,5 @@
 {
-  "name": "silverstripe/registration",
+  "name": "noldman/silverstripe-registration",
   "type": "silverstripe-module",
   "description": "Front-end registration with optional account activation for SilverStripe",
   "homepage": "http://noldman.com",
