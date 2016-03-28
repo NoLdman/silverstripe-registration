@@ -1,3 +1,28 @@
 {
-  "name": "noldman"
+  "name": "silverstripe/registration",
+  "type": "silverstripe-module",
+  "description": "Front-end registration with optional account activation for SilverStripe",
+  "homepage": "http://noldman.com",
+  "license": "MIT",
+  "keywords": ["silverstripe", "registration"],
+  "authors": [
+    {
+      "name": "Hernold Koch",
+      "email": "info@noldman.com",
+      "homepage": "http://noldman.com",
+      "role": "UX Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3,<7",
+    "composer/installers": "~1.0",
+    "silverstripe/cms": ">3.0.0"
+  },
+  "require-dev": {
+    "phpunit/PHPUnit": "~3.7"
+  },
+	"extra": {
+		"installer-name": "registration"
+	},
+  "minimum-stability": "dev"
 }
