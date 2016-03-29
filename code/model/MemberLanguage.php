@@ -1,5 +1,4 @@
 <?php
-namespace NoLdman\Registration\Model;
 
 class MemberLanguage extends DataObject {
 

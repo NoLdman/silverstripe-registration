@@ -1,5 +1,4 @@
 <?php
-namespace NoLdman\Registration\Extension;
 
 class RegistrationMemberExtenxion extends DataExtension {
 

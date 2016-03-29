@@ -1,5 +1,4 @@
 <?php
-namespace NoLdman\Registration\Extension;
 
 class MemberPhone extends DataObject {
 

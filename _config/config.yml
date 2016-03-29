@@ -1,10 +1,10 @@
 ---
 Name: registration
 After: 
-	- 'framework/*'
-	- 'cms/*'
+  - 'framework/*'
+  - 'cms/*'
 Before:
-	- 'mysite/*'
+  - 'mysite/*'
 ---
 Member:
   extensions:
