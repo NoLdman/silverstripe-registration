@@ -10,15 +10,14 @@ class RegistrationMemberExtenxion extends DataExtension {
 			'City' => 'Varchar(100)', //level3: Dependent Locality, City, Suburb, County, District
 			'Region' => "Varchar(255)", //level2: Locality, Administrative Area, State, Province, Region, Territory, Island
 			'CountryCode' => "Varchar(3)",
-			'Birthdate' => "LocalDate",
-			'Active' => 'Boolean',
+			'Birthdate' => "Date",
+			'Activated' => 'Boolean',
 	);
 	private static $has_one = array(
 			'ProfileImage' => "Image",
 			'CoverImage' => "Image"
 	);
 	private static $has_many = array(
-			'MemberLanguages' => 'MemberLanguage',
 			'SocialProfiles' => 'SocialProfile',
 			'Languages' => "MemberLanguage",
 			'Phones' => "MemberPhone",

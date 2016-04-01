@@ -1,5 +1,4 @@
 <?php
-namespace NoLdman\Registration\Page;
 
 class RegistrationPage extends Page {
 
@@ -30,7 +29,7 @@ class RegistrationPage_Controller extends Page_Controller {
 			'RegistrationForm'
 	);
 
-	public function RegistrationForm() {
+	public function Form() {
 		return new RegistrationForm($this, 'RegistrationForm');
 	}
 

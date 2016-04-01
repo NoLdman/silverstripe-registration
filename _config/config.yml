@@ -10,12 +10,13 @@ Member:
   extensions:
     - RegistrationMemberExtenxion
 Registration:
-#  UserGroups:
+  UserGroups:
 #    - FrontendUser
   RequireActivation: true
   RegistrationFields:
-    - Email
-    - Password
+    Email: null
+    Password: null
+#    Password: PasswordField
   RequiredFields:
     - Email
     - Password

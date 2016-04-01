@@ -1,2 +1,22 @@
-## YAML Template.
----
+de:
+  Member:
+    db_Activated: "Aktiviert"
+    db_Address: "Adresse"
+    db_AddressLine2: "Adresszeile 2"
+    db_Birhtdate: "Geburtsdatum"
+    db_City: "Stadt"
+    db_CountryCode: "Land"
+    db_Company: "Firma"
+    db_FailedLoginCount: "Anzahl fehlgeschlagener Anmeldungen"
+    db_PostalCode: "PLZ"
+    db_Region: "Region / Bundesland"
+    has_one_CoverImage: "Coverbild"
+    has_one_ProfileImage: "Profilbild"
+    has_many_Languages: "Gesprochene Sprachen"
+    has_many_Phones: "Telefonnummern"
+    has_many_SocialProfiles: "Soziale Profile"
+  
+  RegistrationForm:
+    ACTIVATIONMAILNOTRECEIVED: "Haben Sie Ihre Aktivierungs-Email nicht erhalten?"
+    ERROREMAILDUPLICATE: "Diese E-Mail wurde bereits registriert."
+    REGISTER: "Registrieren"
