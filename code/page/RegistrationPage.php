@@ -28,8 +28,16 @@ class RegistrationPage_Controller extends Page_Controller {
 	static $allowed_actions = array(
 			'RegistrationForm'
 	);
+	
+	public function index() {
+		$this->customise([
+				'Form' => new RegistrationForm($this, 'RegistrationForm')
+		]);
+		
+		return $this->render();
+	}
 
-	public function Form() {
+	public function RegistrationForm() {
 		return new RegistrationForm($this, 'RegistrationForm');
 	}
 

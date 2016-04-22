@@ -14,7 +14,7 @@ Registration:
 #    - FrontendUser
   RequireActivation: true
   RegistrationFields:
-    Email: null
+    Email: UniqueMemberEmailField
     Password: null
 #    Password: PasswordField
   RequiredFields:
