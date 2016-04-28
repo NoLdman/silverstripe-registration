@@ -30,10 +30,7 @@ class RegistrationPage_Controller extends Page_Controller {
 	);
 	
 	public function index() {
-		$this->customise([
-				'Form' => new RegistrationForm($this, 'RegistrationForm')
-		]);
-		
+		$this->setField('Form', new RegistrationForm($this, 'RegistrationForm'));
 		return $this->render();
 	}
 
