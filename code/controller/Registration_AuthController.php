@@ -45,11 +45,11 @@ class Registration_AuthController extends Controller {
 
 				// redirect Member
 				if ($backUrl) {
-					return Controller::curr()->redirect($backUrl);
+					return $this->redirect($backUrl);
 				} elseif (class_exists('ProfilePage') && ($profilePage = ProfilePage::get()->first())) {
-					return Controller::curr()->redirect($profilePage->Link());
+					return $this->redirect($profilePage->Link());
 				} else {
-					return Controller::cur()->redirect(Director::baseURL());
+					return $this->redirect(Director::baseURL());
 				}
 			}
 		}
